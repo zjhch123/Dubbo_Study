@@ -3,6 +3,7 @@ package com.zplus.api.model;
 import java.io.Serializable;
 
 public class User implements Serializable {
+    private static final long serialVersionUID = 8500065863628371791L;
     private int id;
     private String name;
 
